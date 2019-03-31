@@ -1,9 +1,16 @@
-span.fab{
-  color: #000000;
-  background: #cccccc;
+*{
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  border: 1px solid mediumaquamarine;
-
+}
+ul.list-inline a,
+ul.list-inline li{
+  display: inline-block;
+}
+section#main{
+  
+}
+.top_row {
+  background-color: #f5f7fa;
+  height: 40px;
 }

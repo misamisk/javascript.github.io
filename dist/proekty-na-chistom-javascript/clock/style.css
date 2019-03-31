@@ -1,0 +1,73 @@
+﻿*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+div#clock, div#timer{
+    width: 400px;
+    height: 400px;
+    border: 5px #8b0000;
+}
+div#clock{
+    border-style: dashed;
+    float: left;
+}
+div#timer{
+    border-style: dotted;
+    float: right;
+}
+div.clockC, div.timerC{
+    width: 50px;
+    height: 50px;
+  padding: 15px !important;
+    background-color: #66cdaa;
+}
+div.dbdot, div.clockC, div.timerC{
+    float: left;
+}
+div.dbdot{
+    width: 15px;
+    padding-left: 4px;
+  height: 50px;
+  padding-top: 13px;
+}
+div#clock-wrap, div#timer-wrap{
+  padding-top: 120px;
+}
+div.hours.clockC{
+    margin-left: 120px;
+}
+div.days.timerC{
+    margin-left: 80px;
+}
+.clockCaption{
+    margin-left: 150px;
+}
+.timerCaption{
+    margin-left: 115px;
+}
+.daysCaption{
+    position: absolute;
+    left: 90px;
+    top: 225px;
+}
+.hoursCaption{
+    position: absolute;
+    left: 150px;
+    top: 225px;
+}
+.minutesCaption{
+    position: absolute;
+    left: 210px;
+    top: 225px;
+}
+.secondsCaption{
+    left: 273px;
+    position: absolute;
+    top: 225px;
+}
+
+#timer-wrap{
+    position: relative;
+}

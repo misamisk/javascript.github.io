@@ -1,0 +1,77 @@
+ * {
+   box-sizing: border-box;
+ }
+
+ body {
+   margin: 20px;
+ }
+
+ .field{
+   width: 500px;
+   height: 500px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+   background: #ccc;
+ }
+
+ .excel {
+   width: 50px;
+   height: 50px;
+   padding: 5px; 
+ }
+
+ .snakeBody{
+   background: url(scale.jpg);
+   background-size: cover;
+   border-radius: 50%;
+ }
+
+ .snakeHead{
+   background: url(cat.png);
+   background-size: cover;
+   border-radius: 10%;
+ }
+
+ .mouse{
+    background: url(mouse.png);
+    background-size: cover;
+ }
+ .newGame, .newGame:visited{
+       padding: 5px;
+       position: absolute;
+       top: 15px;
+       width: 150px;
+       height: 50px;
+       border: none;
+       cursor: pointer;
+       text-align: center;
+       color: darkolivegreen;
+       text-decoration: none;
+       background: rgba(0, 255, 255, 0.2);
+       vertical-align: text-top;
+       padding-top: 15px;
+ }
+ .newGame:hover{
+   background: aquamarine;
+ }
+ .newGame:active{
+   background: aqua;
+ }
+ input[disabled=true]{
+   cursor: not-allowed
+ }
+ .score{
+   margin: auto;
+   margin-top: 40px;
+   font-size: 20px;
+   display: block;
+   border: none;
+   background: brown;
+   color: white;
+   position: absolute;
+   top: 50px;
+   text-align: center;
+   
+   
+ }
