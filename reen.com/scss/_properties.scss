@@ -1,0 +1,23 @@
+/*Basic settings*/
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+ul.list-inline a,
+ul.list-inline li {
+  display: inline-block;
+}
+
+a,
+a:hover,
+a:active,
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+/*Variables*/
+$main-color: #506a85;
+$btn-color: #00bc9c;
